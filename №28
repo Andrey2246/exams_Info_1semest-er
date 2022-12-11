@@ -1,3 +1,5 @@
+//28.  Заменить в строке все целые константы из любого количества цифр соответствующим повторением следующего за ними символа
+//(например "abc5xacb15y" - " abcxxxxxacbyyyyyyyyyyyyyyy ").
 #include <stdio.h>
 void unpack(char *st, char *ans){
     int i = 0;
