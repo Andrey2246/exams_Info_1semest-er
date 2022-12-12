@@ -9,7 +9,7 @@ void palindroms(char *st, int max_i1, int max_i2)
     for (st1_start = 0; st1_start < len / 2 + 1; st1_start++)
     {
         int st2_start;
-        for (st2_start = st1_start; st2_start < len; st)
+        for (st2_start = st1_start; st2_start < len; st2_start++)
         {
             int len_frag;
             int max_l_now = 0;
