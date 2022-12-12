@@ -22,7 +22,7 @@ void sorting(int *arr, int n, int *ans){
     }
 }
 int main(){
-    int arr[] = {8, 1, 6, 5, 4, 3, 2, 7};
+    int arr[] = {1, 1, 3, 7, 2, 4, 4, 4};
     int ans[8];
     for(int i = 0; i < 8;i++){
         ans[i] = -1;
